@@ -1,0 +1,183 @@
+.form {
+    margin: 50px auto;
+    width: 300px;
+    padding: 30px 25px;
+    background: white;
+}
+h1.login-title {
+    color: #666;
+    margin: 0px auto 25px;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+.login-input {
+    font-size: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 25px;
+    height: 25px;
+    width: calc(100% - 23px);
+}
+.login-input:focus {
+    border-color:#6e8095;
+    outline: none;
+}
+.login-button {
+    color: #fff;
+    background: #55a1ff;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+.link {
+    color: #666;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.link a {
+    color: #666;
+}
+h3 {
+    font-weight: normal;
+    text-align: center;
+}
+
+
+
+
+h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #33363b;
+}
+
+p{
+    font-size: 14px;
+
+}
+
+.card {
+    width: 360px;
+    height: auto;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-top: 80px;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.15);
+}
+
+.card_profile_img {
+    width: 120px;
+    height: 120px;
+    background-color: #868d9b;
+    background: url('img/avater.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #ffffff;
+    border-radius: 120px;
+    margin: 0 auto;
+    margin-top: -60px;
+
+}
+
+.card_background_img {
+    width: 100%;
+    height: 180px;
+    background-color: #e1e7ed;
+    background: url("img/jain_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.user_details p {
+    margin-bottom: 20px;
+    margin-top: -5px;
+}
+
+.user_details h3 {
+    margin-top: 10px;
+}
+
+.card_count {
+    padding: 30px;
+    border-top: 1px solid #dde1e7;
+}
+
+.count {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 28px;
+}
+
+.count p {
+    margin-top: -10px;
+}
+
+.btn {
+    padding: 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background-color: #24c5a1;
+    color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.home_div {
+    width: auto; /* adjust the width as needed */
+    height: 200px; /* adjust the height as needed */
+  }
+.hero-image {
+	position: relative;
+	text-align: center;
+	color: #fff;
+}
+
+.hero-image img {
+	width: 100%;
+	height: 450px;
+}
+
+.description {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.description h2 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+.description p {
+	font-size: 24px;
+}
